@@ -26,11 +26,15 @@ Hint: You can also download `Mozc64.msi` from GitHub Actions. Check [Build with 
 
 Hint: You can use Bazel to build Mozc (experimental). For details, please see below.
 
-## Setup
+## セットアップ
 
-### System Requirements
+### システム要件
 
-64-bit Windows 10 or later.
+Windows 10 (64ビット)またはWindows 11が動作するパソコン。
+メモリは16GBをおすすめします。8GBの場合、メモリ不足が発生する可能性があります。
+(Windows 11 24H2で動作確認済みです。 Windows 10は2025年10月でサポートが切れるため、Windows 11での実行を推奨します。)
+
+※日本語環境でビルドする場合は「ワールドワイド言語サポートでUnicode UTF-8を利用」にチェックを入れる必要があります。この操作を行わないとビルド途中でエラーが発生します。
 
 ### Software Requirements
 
