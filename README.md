@@ -1,6 +1,6 @@
 これはフォーク版です。
 
-[Mozc - a Japanese Input Method Editor designed for multi-platform](https://github.com/google/mozc)
+[Mozc - マルチプラットフォーム向けに設計された日本語入力IME](https://github.com/google/mozc)
 ===================================
 
 Copyright 2010-2025 Google LLC
