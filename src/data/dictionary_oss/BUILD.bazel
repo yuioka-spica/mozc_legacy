@@ -79,7 +79,7 @@ filegroup(
 filegroup(
     name = "dictionary_data",
     srcs = [
-        ":aux_dictionary",
+        "//:aux_dictionary",
         ":filtered_dictionary",
     ],
 )
