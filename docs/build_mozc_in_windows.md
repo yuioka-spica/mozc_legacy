@@ -15,6 +15,10 @@ cd mozc\src
 
 python build_tools/update_deps.py
 python build_tools/build_qt.py --release --confirm_license
+```
+
+以下のコマンドはBazelに移行するため、将来的には削除予定です。
+```
 python build_mozc.py gyp
 python build_mozc.py build -c Release package
 
