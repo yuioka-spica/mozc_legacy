@@ -139,7 +139,6 @@ cc_library(
         oss_windows = [
             "MOZC_BUILD",
             "WINVER=0x0A00",
-            "_WIN32_WINNT=0x0A00",
             "_ATL_ALL_WARNINGS",
             "_ATL_ALLOW_CHAR_UNSIGNED",
             "_ATL_CSTRING_EXPLICIT_CONSTRUCTORS",
